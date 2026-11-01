@@ -1,0 +1,14 @@
+# Bundle patch: two BaiLian MCP services become the default search and fetch
+# backends of the web seam, so the shipped `web_search` / `web_fetch` tools use
+# them without any change on the tool layer.
+- insert:
+    - id: bailian-web
+      name: '@local/bailian-web'
+
+# The `web` row pins which provider each capability resolves to. An override
+# replaces the complete config, so both ids are restated here.
+- id: web
+  name: '@deepseek-ai/dsh-web'
+  config:
+    searchProvider: bailian-search
+    fetchProvider: bailian-fetch

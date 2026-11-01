@@ -1,0 +1,25 @@
+{
+  "name": "@local/bailian-web",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Aliyun BaiLian MCP search and fetch backends for the DSH web seam (web_search / web_fetch).",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "BaiLian MCP Search & Fetch",
+    "description": "Serves the default web_search and web_fetch tools through Aliyun BaiLian's EnhancedSearch and WebFetch MCP services, authenticated with BAILIAN_API_KEY."
+  }
+}

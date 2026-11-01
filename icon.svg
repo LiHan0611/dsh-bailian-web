@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BaiLian MCP Search and Fetch">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0f2230"/>
+      <stop offset="1" stop-color="#173a4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M17 11h19l10 10v32H17z" fill="#e9f4ff"/>
+  <path d="M36 11l10 10H36z" fill="#9fc8e8"/>
+  <path d="M23 29h13M23 35h13M23 41h9" stroke="#4a7fa5" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="42" cy="41" r="8" fill="none" stroke="#f4b942" stroke-width="3.4"/>
+  <line x1="48" y1="47" x2="53.5" y2="52.5" stroke="#f4b942" stroke-width="4" stroke-linecap="round"/>
+</svg>

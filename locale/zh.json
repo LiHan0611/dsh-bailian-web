@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "百炼 MCP 搜索与抓取",
+    "description": "通过阿里云百炼的 EnhancedSearch 与 WebFetch MCP 服务为默认的 web_search / web_fetch 工具提供后端，使用 BAILIAN_API_KEY 鉴权。"
+  }
+}
